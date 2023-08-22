@@ -1,11 +1,5 @@
-import os 
-from dotenv import load_dotenv
+import os
 
-load_dotenv()
+# Configuración de la aplicación Flask
 
-class config:
-    SERVER_NAME = ""
-    DEBUG   = True
-
-    DATABASE_PATH = "APP/database/contact_book.db"
-    DB_TOKEN = os
+DEBUG = True  # Cambia a False en producción
